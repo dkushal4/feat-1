@@ -1,0 +1,19 @@
+inputSet:
+  name: test-2
+  identifier: test2
+  orgIdentifier: Ng_Pipelines_K8s_Organisations
+  projectIdentifier: kushal_test
+  pipeline:
+    identifier: pipe
+    stages:
+      - stage:
+          identifier: ccx
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: Wait_1
+                    type: Wait
+                    spec:
+                      duration: 10s
