@@ -1,0 +1,19 @@
+inputSet:
+  name: test-2
+  identifier: test2
+  orgIdentifier: default
+  projectIdentifier: demo
+  pipeline:
+    identifier: feat
+    stages:
+      - stage:
+          identifier: gs
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: Wait_1
+                    type: Wait
+                    spec:
+                      duration: 10s
