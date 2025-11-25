@@ -1,0 +1,22 @@
+pipeline:
+  name: pipe
+  identifier: pipe
+  projectIdentifier: kushal_test
+  orgIdentifier: Ng_Pipelines_K8s_Organisations
+  tags: {}
+  stages:
+    - stage:
+        name: ccx
+        identifier: ccx
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: Wait
+                  name: Wait_1
+                  identifier: Wait_1
+                  spec:
+                    duration: <+input>
+        tags: {}
