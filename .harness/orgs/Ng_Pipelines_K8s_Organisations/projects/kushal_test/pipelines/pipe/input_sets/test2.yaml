@@ -1,5 +1,6 @@
 inputSet:
   name: test-2
+  tags: {}
   identifier: test2
   orgIdentifier: Ng_Pipelines_K8s_Organisations
   projectIdentifier: kushal_test
