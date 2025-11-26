@@ -12,7 +12,7 @@ inputSet:
           type: Custom
           spec:
             execution:
-              steps:
+              steps:dd
                 - step:
                     identifier: Wait_1
                     type: Wait
